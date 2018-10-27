@@ -1,0 +1,39 @@
+1. Use pseudocode to describe the following primitive algorithms.
+
+Making Coffee
+GET water
+FILL coffee machine with water
+PLACE filter in coffee machine
+FOR each cup of coffee SCOOP one heaping tablespoon and PLACE in filter
+CLOSE the lid
+SET coffee machine to on
+
+Washing Dishes
+COLLECT all dirty dishes
+FILL sink with hot water
+INSERT dish soap in water
+SCRUB each dish with a brush and soapy water
+RINSE dishes
+SET clean dishes to dry in drying rack
+REPEAT
+
+Walking the dog
+PLACE harness and leash on dog
+PUT ON shoes and coat
+OPEN the door and LOCK door behind you
+WALK to the park and back
+UNLOCK door to the house
+LET dog off leash
+CLOSE door behind you
+
+2. Three companies who created an algorithm that made them successful. Doesn't need to be tech. 
+
+YouTube has an algorithm to find videos that you like to watch based off of your watch history. That being said, many people are mad at the algorithm these days, because it isn't super representative of everyone's likes. 
+
+Starbucks has an algorithm/recipe for making a vanilla latte. Each time someone orders a vanilla latte no matter where in the world, they will get the same drink, giving them consistency and predictability, which is why their customers like them.
+
+Disney has an algorithm for customer service in each of their theme parks which makes people love going to their parks and it makes customers/visitors feel good.
+
+3. Hypothesize about what constitutes an efficient algorithm versus an inefficient algorithm.
+
+I think an efficient algorithm is just that, EFFICIENT. It needs to be fast and precise. I could do something the 'long way' or the 'short way', and to have a great algorithm, you would do it the short way. The code for algorithms must be smart, intuitive, and very lean.
