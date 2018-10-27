@@ -1,0 +1,35 @@
+1. What is time complexity and what is its relation to algorithms?
+Time complexity is the estimated time it takes to complete and execute a program, and it is expressed in the form of a function. The function is calculated assuming the input is infinite, to know worst case scenarios. 
+
+2. What is run time? 
+Runtime refers to the actual time (in real life) it would take to run an algorithm. It is often used synonymously with time complexity. 
+
+3. How is runtime of an algorithm calculated?
+You have to add up the instructions included in an algorithm and how many times they will execute, using the size of the input to do so. You then have to simplify the expression to the smallest terms.
+
+3. How is the runtime of an algorithm calculated?
+We use the function O (f(n)), where n is the input. It basically looks at each line of the algorithm, and figures out if it runs a finite amount of times, or n amount of times. 
+
+4. Name the six types of algorithm growth rates we saw in this checkpoint and list them in order of most efficient to least efficient. Now Google another algorithmic growth rate not covered and place it in the correct spot in your list.
+
+From most efficient to least: 
+Constant
+Logarithmic
+Linear
+Log Linear
+Quadratic
+Cubic Growth Rate
+Exponential
+
+New: Cubic Growth Rate, this is similar to quadratic, but it grows faster, so it is less efficient.
+
+5.Choose one of the algorithmic growth rates from the last question and make a comparison to a real-life situation.
+Linear growth rate is the same as putting away laundry. Once it is all done (washed and folded) I have to touch each piece of clothing to put it away/hang it up. The time of putting away n pieces of laundry will be n times the average rate of putting a piece of clothing away.
+
+6. Time complexity = n
+
+7. Time complexity = O(n^2) (also quadratic)
+
+8. O (2^n) (exponential)
+
+9. The most efficient function was #6, the linear search.
