@@ -1,0 +1,43 @@
+1. A real life example of a linear search would be looking through my emails from today to find one titled "Meeting Minutes".
+
+2. An example of a binary search is trying to find a library book in the fiction section by author's last name. Its a good idea to start in the middle and see where to go from there.
+
+3. 7 iterations.
+
+4. 3 iterations.
+
+5. To search through an unsorted collection of a million items, even though it would take forever, you would use a linear search. Due to it being unsorted, a binary search would not work.
+
+5. Searching through a sorted collection of a million items, you would use a binary search to find a value. It would be much faster because it does not have to iterate through each item, it uses the halving method to find the value. 
+
+function binarySearch (collection, word) {
+  var low = 0;
+  var high = collection.length-1;
+  var word = word.toLowerCase();
+
+  while (low <= high) {
+    var mid = Math.floor((low + high) / 2);
+    if (collection[mid] > word) {
+      var high = mid - 1;
+    } else if (collection[mid] < word) {
+      var low = mid + 1;
+    } else {
+      return mid;
+    }
+  }
+  return "word not found";
+};
+
+6. You work at a pet store, and a child has asked you to net the only white-spotted goldfish from the fish tank. Write a program that will help you net the right fish.
+
+ var linearSearch = function(collection, target) {
+   var result = null, value;
+   for(var i = 0; i < collection.length; i++) {
+     value = collection[i];
+     if(value === target){
+       result = i;
+       break;
+     }
+   }
+   return result;
+ };
