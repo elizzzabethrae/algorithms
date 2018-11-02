@@ -1,0 +1,51 @@
+1. Write pseudocode for bubble sort
+
+ FUNCTION bubbleSort(collection)
+   REPEAT
+     SET swapped to false
+
+     FOR i = FIRST INDEX of collection to LAST INDEX of collection - 1
+       IF collection[i] > collection[i + 1] THEN
+         SET tmp to collection[i]
+         SET collection[i] to collection[i + 1]
+         SET collection[i + 1] to tmp
+         SET swapped to true
+       END IF
+     END FOR
+   UNTIL swapped is FALSE
+
+   RETURN collection
+ END FUNCTION
+
+2. Write pseudocode for quicksort.
+
+function quickSort(collection)
+ SET pivotPoint to LAST ITEM of collection
+
+ REPEAT
+  SET swapped to false
+
+   FOR i = FIRST INDEX of collection to LAST INDEX of collection -1
+
+    IF pivotPoint < collection[i]  THEN
+	SET temp to collection[i]
+	SET collection[i] to collection[i + 1]
+	SET collection[i + 1] to temp
+	SET swapped to true
+    END IF
+   END FOR
+  UNTIL swapped is FALSE
+
+  RETURN collection
+END FUNCTION
+
+3. List the sorting methods by least efficient to most:
+
+Quick sort and Merge sort are most efficient, because they touch the fewest possible elements in the process of sorting. Just like binary searches, they are much  
+In bubble sort you have to swap elements in every iteration, and each iteration includes many swaps. 
+With Selection sort you again have to touch each item in a collection, and swap as you go down the entire collection.
+Insertion Sort requires a whole new collection to be made to sort an unsorted collection, which is extra steps. 
+
+4. What is bucket sort?
+
+Bucket sort works by distributing elements of an array into buckets. Each bucket is then sorted individually within their bin, and returned back to the array sorted. Bucket sort is best used when input is uniformly distributed over a range.
